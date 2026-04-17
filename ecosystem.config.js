@@ -6,7 +6,7 @@ module.exports = {
     autorestart: true,
     watch: false,
     max_memory_restart: '128M',
-    env: { UDP_PORT: 5005 },
+    env: { UDP_PORT: 5005, TCP_PORT: 5006 },
     error_file: '/var/log/udp-echo/error.log',
     out_file: '/var/log/udp-echo/out.log',
     log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
